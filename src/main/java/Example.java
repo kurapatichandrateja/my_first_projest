@@ -3,6 +3,8 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.test.st.Demo;
+
 @RestController
 @EnableAutoConfiguration
 public class Example {
@@ -13,8 +15,8 @@ public class Example {
     }
     @RequestMapping("/chandu")
     String myhome() {
-    	
-    	return "my name is chandra teja. /n this is my new page ";
+    	Demo demo=new Demo();
+    	return demo.getString("Chandu");
     }
 
     public static void main(String[] args) throws Exception {
