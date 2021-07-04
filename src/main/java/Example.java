@@ -19,7 +19,7 @@ public class Example {
     @RequestMapping("/chandu")
     String myhome() {
     	Demo demo=new Demo();
-    	return demo.getString("Anigdl");
+    	return demo.getString("Anil");
     }
     
     @RequestMapping("/getCredentials")
