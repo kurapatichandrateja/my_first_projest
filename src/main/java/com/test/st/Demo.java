@@ -8,7 +8,7 @@ public class Demo {
 		}else if(st.equals("Anil")) {
 			return "I am Anil";
 		}
-		return "I am nothing";
+		return "you must choose option an 'Chandu'or 'Anil' ";
 	}
 
 }
